@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+
+platform :osx, '10.14'
+source 'https://cdn.cocoapods.org/'
+inhibit_all_warnings!
+
+target 'QMClassMacDemo' do
+  use_frameworks!
+
+  # 网络请求 Alamofire
+  pod 'Alamofire'
+  # 自动布局 SnapKit
+  pod 'SnapKit'
+  # 图片加载（OC）
+  pod 'SDWebImage'
+  pod 'KeychainAccess'
+  # 加密解密
+  pod 'CryptoSwift'
+end

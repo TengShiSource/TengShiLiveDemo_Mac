@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (5.4.3)
+  - CryptoSwift (1.4.1)
+  - KeychainAccess (4.2.2)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - CryptoSwift
+  - KeychainAccess
+  - SDWebImage
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CryptoSwift
+    - KeychainAccess
+    - SDWebImage
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  CryptoSwift: 0bc800a7e6a24c4fc9ebeab97d44b0d5f73a78bd
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 8d28f1146be52844b69db5deec83a13fe994b9b7
+
+COCOAPODS: 1.10.2

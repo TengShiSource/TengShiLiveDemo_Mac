@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="mkm-JB-7Fj">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="18122"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Window Controller-->
+        <scene sceneID="e3K-kM-LPd">
+            <objects>
+                <windowController id="mkm-JB-7Fj" customClass="VideoWindowController" customModule="启明课堂forMac" customModuleProvider="target" sceneMemberID="viewController">
+                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="HvG-oW-XpB">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="196" y="239" width="800" height="500"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1440" height="875"/>
+                        <value key="minSize" type="size" width="480" height="320"/>
+                        <view key="contentView" id="abE-hi-HZM">
+                            <rect key="frame" x="0.0" y="0.0" width="800" height="500"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </view>
+                        <connections>
+                            <outlet property="delegate" destination="mkm-JB-7Fj" id="jtX-v9-6wS"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="BXx-7e-C5D" kind="relationship" relationship="window.shadowedContentViewController" id="7sA-Hc-Y47"/>
+                    </connections>
+                </windowController>
+                <customObject id="HOn-As-NUc" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-165" y="178"/>
+        </scene>
+        <!--Video View Controller-->
+        <scene sceneID="7a0-ij-ux7">
+            <objects>
+                <viewController id="BXx-7e-C5D" customClass="VideoViewController" customModule="启明课堂forMac" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="lER-xg-7pr">
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="500"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="vMl-Qi-GwI" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="543" y="147"/>
+        </scene>
+    </scenes>
+</document>
